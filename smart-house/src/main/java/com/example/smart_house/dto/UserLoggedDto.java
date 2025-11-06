@@ -1,0 +1,7 @@
+package com.example.smart_house.dto;
+
+import java.util.Set;
+
+public record UserLoggedDto(String username, String role, Set <String> permissions) {
+
+}
